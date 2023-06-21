@@ -5,7 +5,7 @@ You should obtain archive from Facebook web: https://www.facebook.com/dyi/
 I have chosen this:
 ![img.png](imgs/img.png)
 
-I have some 54 k "sent" messages since 2012. `find . -type d -name "photos" -or -name "files" | xargs rm -r` helped reduce the folder to 630 mb.
+I have some 54 k "sent" messages since 2012. `find . -type d -name "photos" -or -name "files" -or -name "gifs" -or -name "videos" | xargs rm -r` helped reduce the folder to 100 mb.
 
 ## Usage
 
